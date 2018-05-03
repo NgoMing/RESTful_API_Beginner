@@ -1,10 +1,12 @@
 package onlineshop.data;
 
 import onlineshop.Customer;
+import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Component
 public class CustomerRepositoryImpl implements CustomerRepository {
 
     List<Customer> listCustomer = new ArrayList<>();
