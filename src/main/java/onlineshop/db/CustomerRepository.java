@@ -1,6 +1,6 @@
-package onlineshop.data;
+package onlineshop.db;
 
-import onlineshop.Customer;
+import onlineshop.domain.Customer;
 
 public interface CustomerRepository {
 

@@ -1,11 +1,10 @@
 package onlineshop.web;
 
-import onlineshop.Customer;
-import onlineshop.data.CustomerRepository;
+import onlineshop.domain.Customer;
+import onlineshop.db.CustomerRepository;
 import org.junit.Test;
 import org.springframework.test.web.servlet.MockMvc;
 
-import static org.junit.Assert.*;
 import static org.mockito.Mockito.*;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;

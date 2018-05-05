@@ -1,4 +1,4 @@
-package onlineshop;
+package onlineshop.domain;
 
 import org.apache.commons.lang3.builder.EqualsBuilder;
 import org.apache.commons.lang3.builder.HashCodeBuilder;
@@ -13,20 +13,20 @@ public class Customer {
 
     public Customer() {}
 
-    public Customer(String firstName, String lastName, String username, String password) {
-        this(null, firstName, lastName, username, password);
-    }
-
-    public Customer(Long id, String firstName, String lastName, String username, String password) {
+    public Customer(Long id, String username, String password, String firstName, String lastName) {
         this.id = id;
-        this.firstName = firstName;
-        this.lastName = lastName;
         this.username = username;
         this.password = password;
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
+
+    public Customer(String username, String password, String firstName, String lastName) {
+        this(null, username, password, firstName, lastName);
     }
 
     // getter and setter for id attribute
-    public long getId() {
+    public Long getId() {
         return id;
     }
 

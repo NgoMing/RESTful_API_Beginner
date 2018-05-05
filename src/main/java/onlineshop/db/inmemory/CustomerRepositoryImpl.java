@@ -1,6 +1,7 @@
-package onlineshop.data;
+package onlineshop.db.inmemory;
 
-import onlineshop.Customer;
+import onlineshop.db.CustomerRepository;
+import onlineshop.domain.Customer;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
