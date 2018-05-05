@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class onlineshop.db.jdbc.JdbcCustomerRepositoryTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class onlineshop.db.jdbc.JdbcCustomerRepositoryTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/onlineshop.db.jdbc.html">onlineshop.db.jdbc</a> &gt; JdbcCustomerRepositoryTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">2</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.556s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">findByUsername</td>
+<td>0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">save_newCustomer</td>
+<td>0.552s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>May 06, 2018 8:15:11 AM org.springframework.context.support.GenericApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.GenericApplicationContext@746b076f: startup date [Sun May 06 08:15:11 AEST 2018]; root of context hierarchy
+May 06, 2018 8:15:11 AM org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory initDatabase
+INFO: Creating embedded database 'testdb'
+May 06, 2018 8:15:11 AM org.springframework.jdbc.datasource.init.ScriptUtils executeSqlScript
+INFO: Executing SQL script from class path resource [customer/db/jdbc/schema.sql]
+May 06, 2018 8:15:11 AM org.springframework.jdbc.datasource.init.ScriptUtils executeSqlScript
+INFO: Executed SQL script from class path resource [customer/db/jdbc/schema.sql] in 10 ms.
+May 06, 2018 8:15:11 AM org.springframework.jdbc.datasource.init.ScriptUtils executeSqlScript
+INFO: Executing SQL script from class path resource [customer/db/jdbc/test-data.sql]
+May 06, 2018 8:15:11 AM org.springframework.jdbc.datasource.init.ScriptUtils executeSqlScript
+INFO: Executed SQL script from class path resource [customer/db/jdbc/test-data.sql] in 4 ms.
+May 06, 2018 8:15:11 AM org.springframework.test.context.transaction.TransactionalTestExecutionListener startNewTransaction
+INFO: Began transaction (1) for test context [DefaultTestContext@351048e6 testClass = JdbcCustomerRepositoryTest, testInstance = onlineshop.db.jdbc.JdbcCustomerRepositoryTest@6f4e0a6a, testMethod = save_newCustomer@JdbcCustomerRepositoryTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@16013252 testClass = JdbcCustomerRepositoryTest, locations = '{}', classes = '{class onlineshop.config.jdbc.JdbcConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]; transaction manager [org.springframework.jdbc.datasource.DataSourceTransactionManager@747fd8f1]; rollback [true]
+May 06, 2018 8:15:11 AM org.springframework.test.context.transaction.TransactionalTestExecutionListener endTransaction
+INFO: Rolled back transaction after test execution for test context [DefaultTestContext@351048e6 testClass = JdbcCustomerRepositoryTest, testInstance = onlineshop.db.jdbc.JdbcCustomerRepositoryTest@6f4e0a6a, testMethod = save_newCustomer@JdbcCustomerRepositoryTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@16013252 testClass = JdbcCustomerRepositoryTest, locations = '{}', classes = '{class onlineshop.config.jdbc.JdbcConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+May 06, 2018 8:15:11 AM org.springframework.test.context.transaction.TransactionalTestExecutionListener startNewTransaction
+INFO: Began transaction (2) for test context [DefaultTestContext@351048e6 testClass = JdbcCustomerRepositoryTest, testInstance = onlineshop.db.jdbc.JdbcCustomerRepositoryTest@2cfd010b, testMethod = findByUsername@JdbcCustomerRepositoryTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@16013252 testClass = JdbcCustomerRepositoryTest, locations = '{}', classes = '{class onlineshop.config.jdbc.JdbcConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]; transaction manager [org.springframework.jdbc.datasource.DataSourceTransactionManager@747fd8f1]; rollback [true]
+May 06, 2018 8:15:11 AM org.springframework.test.context.transaction.TransactionalTestExecutionListener endTransaction
+INFO: Rolled back transaction after test execution for test context [DefaultTestContext@351048e6 testClass = JdbcCustomerRepositoryTest, testInstance = onlineshop.db.jdbc.JdbcCustomerRepositoryTest@2cfd010b, testMethod = findByUsername@JdbcCustomerRepositoryTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@16013252 testClass = JdbcCustomerRepositoryTest, locations = '{}', classes = '{class onlineshop.config.jdbc.JdbcConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 4.3.1</a> at May 6, 2018 8:15:12 AM</p>
+</div>
+</div>
+</body>
+</html>

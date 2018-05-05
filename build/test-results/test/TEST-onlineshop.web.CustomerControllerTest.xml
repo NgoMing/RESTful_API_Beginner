@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="onlineshop.web.CustomerControllerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-05-05T22:15:11" hostname="laptop88-PC" time="0.452">
+  <properties/>
+  <testcase name="shouldShowRegistration" classname="onlineshop.web.CustomerControllerTest" time="0.376"/>
+  <testcase name="shouldProcessingRegistration" classname="onlineshop.web.CustomerControllerTest" time="0.076"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[May 06, 2018 8:15:12 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/customer/{username}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String onlineshop.web.CustomerController.showCustomerProfile(java.lang.String,org.springframework.ui.Model)
+May 06, 2018 8:15:12 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/customer/register],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String onlineshop.web.CustomerController.processRegistration(onlineshop.domain.Customer)
+May 06, 2018 8:15:12 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/customer/register],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String onlineshop.web.CustomerController.showRegistration(org.springframework.ui.Model)
+May 06, 2018 8:15:12 AM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring FrameworkServlet ''
+May 06, 2018 8:15:12 AM org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+INFO: FrameworkServlet '': initialization started
+May 06, 2018 8:15:12 AM org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+INFO: FrameworkServlet '': initialization completed in 3 ms
+May 06, 2018 8:15:12 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/customer/{username}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String onlineshop.web.CustomerController.showCustomerProfile(java.lang.String,org.springframework.ui.Model)
+May 06, 2018 8:15:12 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/customer/register],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String onlineshop.web.CustomerController.processRegistration(onlineshop.domain.Customer)
+May 06, 2018 8:15:12 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/customer/register],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String onlineshop.web.CustomerController.showRegistration(org.springframework.ui.Model)
+May 06, 2018 8:15:12 AM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring FrameworkServlet ''
+May 06, 2018 8:15:12 AM org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+INFO: FrameworkServlet '': initialization started
+May 06, 2018 8:15:12 AM org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+INFO: FrameworkServlet '': initialization completed in 0 ms
+]]></system-err>
+</testsuite>

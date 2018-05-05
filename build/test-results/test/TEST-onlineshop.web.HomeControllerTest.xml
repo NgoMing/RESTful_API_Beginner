@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="onlineshop.web.HomeControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-05-05T22:15:12" hostname="laptop88-PC" time="0.01">
+  <properties/>
+  <testcase name="testHomePage" classname="onlineshop.web.HomeControllerTest" time="0.01"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[May 06, 2018 8:15:12 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String onlineshop.web.HomeController.home()
+May 06, 2018 8:15:12 AM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring FrameworkServlet ''
+May 06, 2018 8:15:12 AM org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+INFO: FrameworkServlet '': initialization started
+May 06, 2018 8:15:12 AM org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+INFO: FrameworkServlet '': initialization completed in 0 ms
+]]></system-err>
+</testsuite>

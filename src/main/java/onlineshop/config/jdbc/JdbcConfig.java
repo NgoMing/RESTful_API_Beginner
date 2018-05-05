@@ -20,7 +20,7 @@ public class JdbcConfig {
         return new EmbeddedDatabaseBuilder()
                 .setType(EmbeddedDatabaseType.H2)
                 .addScripts("customer/db/jdbc/schema.sql")
-//                .addScripts("customer/db/jdbc/test-data.sql")
+                .addScripts("customer/db/jdbc/test-data.sql")
                 .build();
     }
 

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="onlineshop.db.jdbc.JdbcCustomerRepositoryTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-05-05T22:15:11" hostname="laptop88-PC" time="0.556">
+  <properties/>
+  <testcase name="save_newCustomer" classname="onlineshop.db.jdbc.JdbcCustomerRepositoryTest" time="0.552"/>
+  <testcase name="findByUsername" classname="onlineshop.db.jdbc.JdbcCustomerRepositoryTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[May 06, 2018 8:15:11 AM org.springframework.context.support.GenericApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.GenericApplicationContext@746b076f: startup date [Sun May 06 08:15:11 AEST 2018]; root of context hierarchy
+May 06, 2018 8:15:11 AM org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory initDatabase
+INFO: Creating embedded database 'testdb'
+May 06, 2018 8:15:11 AM org.springframework.jdbc.datasource.init.ScriptUtils executeSqlScript
+INFO: Executing SQL script from class path resource [customer/db/jdbc/schema.sql]
+May 06, 2018 8:15:11 AM org.springframework.jdbc.datasource.init.ScriptUtils executeSqlScript
+INFO: Executed SQL script from class path resource [customer/db/jdbc/schema.sql] in 10 ms.
+May 06, 2018 8:15:11 AM org.springframework.jdbc.datasource.init.ScriptUtils executeSqlScript
+INFO: Executing SQL script from class path resource [customer/db/jdbc/test-data.sql]
+May 06, 2018 8:15:11 AM org.springframework.jdbc.datasource.init.ScriptUtils executeSqlScript
+INFO: Executed SQL script from class path resource [customer/db/jdbc/test-data.sql] in 4 ms.
+May 06, 2018 8:15:11 AM org.springframework.test.context.transaction.TransactionalTestExecutionListener startNewTransaction
+INFO: Began transaction (1) for test context [DefaultTestContext@351048e6 testClass = JdbcCustomerRepositoryTest, testInstance = onlineshop.db.jdbc.JdbcCustomerRepositoryTest@6f4e0a6a, testMethod = save_newCustomer@JdbcCustomerRepositoryTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@16013252 testClass = JdbcCustomerRepositoryTest, locations = '{}', classes = '{class onlineshop.config.jdbc.JdbcConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]; transaction manager [org.springframework.jdbc.datasource.DataSourceTransactionManager@747fd8f1]; rollback [true]
+May 06, 2018 8:15:11 AM org.springframework.test.context.transaction.TransactionalTestExecutionListener endTransaction
+INFO: Rolled back transaction after test execution for test context [DefaultTestContext@351048e6 testClass = JdbcCustomerRepositoryTest, testInstance = onlineshop.db.jdbc.JdbcCustomerRepositoryTest@6f4e0a6a, testMethod = save_newCustomer@JdbcCustomerRepositoryTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@16013252 testClass = JdbcCustomerRepositoryTest, locations = '{}', classes = '{class onlineshop.config.jdbc.JdbcConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+May 06, 2018 8:15:11 AM org.springframework.test.context.transaction.TransactionalTestExecutionListener startNewTransaction
+INFO: Began transaction (2) for test context [DefaultTestContext@351048e6 testClass = JdbcCustomerRepositoryTest, testInstance = onlineshop.db.jdbc.JdbcCustomerRepositoryTest@2cfd010b, testMethod = findByUsername@JdbcCustomerRepositoryTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@16013252 testClass = JdbcCustomerRepositoryTest, locations = '{}', classes = '{class onlineshop.config.jdbc.JdbcConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]; transaction manager [org.springframework.jdbc.datasource.DataSourceTransactionManager@747fd8f1]; rollback [true]
+May 06, 2018 8:15:11 AM org.springframework.test.context.transaction.TransactionalTestExecutionListener endTransaction
+INFO: Rolled back transaction after test execution for test context [DefaultTestContext@351048e6 testClass = JdbcCustomerRepositoryTest, testInstance = onlineshop.db.jdbc.JdbcCustomerRepositoryTest@2cfd010b, testMethod = findByUsername@JdbcCustomerRepositoryTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@16013252 testClass = JdbcCustomerRepositoryTest, locations = '{}', classes = '{class onlineshop.config.jdbc.JdbcConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+]]></system-err>
+</testsuite>
